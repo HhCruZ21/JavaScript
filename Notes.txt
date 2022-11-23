@@ -1,0 +1,18 @@
+What is ECMAScript?
+
+Who owns the trademark for Javascript : Oracle
+
+What is a Javascript Engine
+
+
+
+
+Javascript for beginners
+
+1. Variables in Javascript
+
+    -> Why do we need Variables
+
+    -> const, let, var 
+
+        -> What are the rules for giving variable names in Javascript
