@@ -172,3 +172,28 @@ Compare const, let and var in javascript.
 14. this keyword
 
     ->  
+
+
+
+15. Constructor function in JS
+
+16. Arrays
+
+    ->  Creating and fetching data from an array.
+
+    ->  Different types of Arrays
+
+    ->  Array methods
+
+    ->  Array destructuring
+
+    ->  Array ForEach
+
+    ->  Array method filter map reduce
+
+    ->  Set in Javascript
+
+    ->  Map in Javascript
+
+
+17. Recursion
