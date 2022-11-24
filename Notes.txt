@@ -4,6 +4,7 @@ Who owns the trademark for Javascript : Oracle
 
 What is a Javascript Engine
 
+Learn about the console function in JS
 
 
 
@@ -16,3 +17,158 @@ Javascript for beginners
     -> const, let, var 
 
         -> What are the rules for giving variable names in Javascript
+
+
+2. Constants in Javascript
+
+    -> We use the keyword const to declare such variables. Eg: const a = 2.14
+
+
+
+Compare const, let and var in javascript.
+
+
+
+
+
+3. Data types in JS can be of two types :- primitive and objects
+
+    -> Primitive types are Number, string, boolean, null, undefined, Symbol
+
+        ->  Range of number in java 1.79769e+308. Safe number would be 9007199254740991. Anything bigger can be used as of type BigInt.
+            To get the max value allowed for numbers print the value of Number.MAX_VALUE. Whenever we go beyond this value we get result as infinity.
+            If we say n at the end of a big number like 90071992547409911n then we can get the value as BigInt to prevent loss of data 
+            which is present in the scientific notation.
+
+        -> To improve readability of large numbers we can represent 10000000 as 100_00_000
+
+        -> How to define numbers in different base systems, floating point numbers.
+
+
+
+    -> String functions in javascript
+
+        ->  String concatenation using +
+
+        ->  To print something like Haizon "Helet" double quoutes inside the string, print it as "Haizon \"Helet\""
+
+        -> String literals in javascript
+
+
+
+
+
+
+
+4.  Type Conversion & Coercion
+
+
+    ->  Explicit type Conversion
+
+    ->  Implicit type Conversion
+
+    ->  Coercion sets in an example operation like when we add a number and a string.
+        Makes both of a compatible type and performs the operation
+
+
+    ->  Difference between Number object and parseInt()
+
+
+
+
+
+
+5. Operations in JS
+
+    ->  Arithmetic, Relational. Logical, Assignment, Unary Operations
+
+    ->  Terenary operation
+
+
+
+
+
+
+
+6. Math functions in JS
+
+
+7. Conditional Statements in JS
+
+    -> if, if else, if elseif else, switch
+
+
+8. Jump Statements in JS
+
+    ->  break and continue are the jump statements in JS
+
+
+9. Loops in JS
+
+    ->  for, while, do-while, for-in Loops
+
+
+10. Template Literals in JS
+
+    -> Using the `` instead of double quotes and then use the ${} symbol to define literals in JS.
+
+
+
+11. Objects in JS
+
+    ->  var a = {} is how we define an object.
+
+    ->  var a = {
+                    name: "Haizon",
+                    age: 23
+                }
+
+    ->  To get a value we do a.name
+
+    ->  Say we have the name of the property in another variable 
+
+        var p ='name'
+
+        console.log(a[p])
+
+    ->  To delete a property say name : delete a.name
+
+
+
+
+
+
+12. Functions in JS
+
+    ->  function function_name() {
+
+                                }
+
+    ->  Function return and passing
+
+    ->  Function expressions in JS
+
+        ->  let add = function(num1, num2) {
+
+            return num1 + num2
+        }
+
+        let result = add(5,6)
+
+
+    ->  Arrow functions in JS
+
+        ->  let add = ()=> {
+
+            function_body
+
+        }
+
+
+
+
+13. What is the difference between methods and functions in JS
+
+14. this keyword
+
+    ->  
