@@ -1,10 +1,52 @@
 What is ECMAScript?
 
+    -> ECMAScript is a Javascript standard intended to ensure the interoperability of web pages across different browsers.
+
+
+
+
+
+
 Who owns the trademark for Javascript : Oracle
+
+
+
+
+
 
 What is a Javascript Engine
 
+
+
+
+
+
 Learn about the console function in JS
+
+    ->  A web console is a tool which is used to log information associated with a web page like
+        network requests, Javascript, security errors etc..
+
+    ->  'console' is an object that provides access to browsers debugging console.
+
+    ->  There are different functions in console object
+
+        ->  .log()
+
+        ->  .error()
+
+        ->  .warn()
+
+        ->  .clear()
+
+        ->  .time() and .timeEnd()
+
+        ->  .table()
+
+        ->  .count()
+
+        ->  .group() and .groupEnd()
+
+
 
 
 
@@ -19,6 +61,10 @@ Javascript for beginners
         -> What are the rules for giving variable names in Javascript
 
 
+
+
+
+
 2. Constants in Javascript
 
     -> We use the keyword const to declare such variables. Eg: const a = 2.14
@@ -26,6 +72,7 @@ Javascript for beginners
 
 
 Compare const, let and var in javascript.
+
 
 
 
@@ -43,6 +90,9 @@ Compare const, let and var in javascript.
         -> To improve readability of large numbers we can represent 10000000 as 100_00_000
 
         -> How to define numbers in different base systems, floating point numbers.
+
+
+
 
 
 
@@ -89,8 +139,11 @@ Compare const, let and var in javascript.
 
 
 
-
 6. Math functions in JS
+
+
+
+
 
 
 7. Conditional Statements in JS
@@ -98,9 +151,17 @@ Compare const, let and var in javascript.
     -> if, if else, if elseif else, switch
 
 
+
+
+
+
 8. Jump Statements in JS
 
     ->  break and continue are the jump statements in JS
+
+
+
+
 
 
 9. Loops in JS
@@ -108,9 +169,16 @@ Compare const, let and var in javascript.
     ->  for, while, do-while, for-in Loops
 
 
+
+
+
+
 10. Template Literals in JS
 
     -> Using the `` instead of double quotes and then use the ${} symbol to define literals in JS.
+
+
+
 
 
 
@@ -167,7 +235,14 @@ Compare const, let and var in javascript.
 
 
 
+
+
 13. What is the difference between methods and functions in JS
+
+
+
+
+
 
 14. this keyword
 
@@ -175,7 +250,15 @@ Compare const, let and var in javascript.
 
 
 
+
+
+
 15. Constructor function in JS
+
+
+
+
+
 
 16. Arrays
 
@@ -196,4 +279,18 @@ Compare const, let and var in javascript.
     ->  Map in Javascript
 
 
+
+
+
+
 17. Recursion
+
+
+18. Some more useful references
+
+    ->  https://www.w3schools.com/jsref/obj_location.asp
+
+
+
+19. Javascript Design Patterns
+

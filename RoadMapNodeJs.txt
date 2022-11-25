@@ -1,0 +1,206 @@
+Javascript
+
+    ->  Learn Syntax and back Operations
+
+    ->  DOM manipulation
+
+    ->  IIFE(Immediately invoked Function Expression)
+
+    ->  Scope
+
+    ->  Hoisting
+
+    ->  Closures
+
+    ->  Callbacks
+
+    ->  Promises
+
+    ->  Async & Await
+
+
+
+Build Tools
+
+
+    Package Manager
+
+        ->  npm
+
+
+    Task runners
+
+        ->  nodemon
+
+
+    Module Bundlers
+
+        -> Need clarification. Eg: Webpack, Browserify, Rollup, Fusebox, Parcel
+
+
+
+
+Web Frameworks
+
+    -> Express.js
+
+    -> Nest.js
+
+
+
+
+API Client
+
+   ->   REST
+
+        ->  axios
+
+
+
+    -> GraphQL (Needs clarification)
+
+        ->  Apollo, Relay, urql
+
+
+    
+
+Real-time communication
+
+    -> Socket.io
+
+
+
+
+Microservices
+
+    ->  Message-Brokers
+
+        ->  RabbitMQ, Apache Kafka, ActiveMQ, Azure Service Bus
+
+    ->  Message-Bus
+
+        ->  Distribus, BusMQ
+
+
+
+
+
+ORM
+
+    ->  Sequelize, Mongoose, Knex, Typeorm
+
+
+
+
+
+Databases
+
+    ->  Relational Databases
+
+        -> PostgreSQL, MS SQL Server
+
+    ->  Cloud Databases
+
+        ->  CosmosDB, DynamoDB, Emotion, Aphrodite
+
+    ->  NoSQL
+
+        ->  Apache Cassandra, MongoDB
+
+
+    -> Search Enignes
+
+        ->  ElasticSearch
+
+
+
+
+
+Caching
+
+    ->  Node-Cache
+
+    ->  Distributed Cache
+
+    ->  Memory Cache
+
+
+
+
+
+
+Type Checkers
+
+    -> TypeScript
+
+
+
+
+Task Scheduling
+
+    ->  Node-Schedule
+
+
+
+
+
+Loggin
+
+    -> Morgan, Winston (Log Frameworks)
+
+    -> Log Management System (Sentry.io)
+
+
+
+
+
+
+Security Libraries
+
+    ->  bcryptjs, cors, jsonwebtoken, express-jwt, joi, Auth()Passport JS, nodemailer
+
+
+
+
+
+Unit Testing using Jest
+
+
+
+
+
+
+Integration testing using karma
+
+
+
+Utility Libraries
+
+    -> Lodash, Moment, classnames
+
+
+
+
+
+End-toEnd Testing
+
+    ->  Selenium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

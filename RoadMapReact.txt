@@ -1,0 +1,84 @@
+Fundamentals
+
+    ->  Create react app
+
+    ->  Function Components
+
+    ->  Class components (optional)
+
+    ->  JSX
+
+    ->  Props
+
+    ->  State
+
+    ->  useState and useEffect
+
+    ->  setState and component lifecycle methods
+
+    ->  Conditional Rendering
+
+    ->  Lists and keys
+
+    ->  Building forms
+
+    ->  Composition vs inheritance
+
+
+
+
+
+Advanced Topics
+
+    ->  HTTP requests
+
+        ->  Context
+
+        ->  Refs
+
+        ->  Error boundaries
+
+        ->  Portals
+
+        ->  CRUD
+
+    ->  Hooks
+
+    ->  Higher order components, render props, reconcilliation
+
+
+
+
+
+
+
+EcoSystem
+
+    ->  State Management
+
+        ->  Redux, Apollo Client, React Query
+
+    ->  Routing
+
+        ->  React Location, React Router
+
+    ->  Styling using Material UI
+
+    ->  Forms (Formik, React Hook Form)
+
+    ->  Testing using Jest + React Testing Library
+
+
+
+
+->  Other references
+
+    ->  https://www.youtube.com/watch?v=R4CcUD4JcSE
+
+    ->  Weather app
+
+    ->  To-do List app
+
+    ->  E-commerce
+
+    
