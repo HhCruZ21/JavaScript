@@ -142,6 +142,10 @@ Compare const, let and var in javascript.
 6. Math functions in JS
 
 
+    ->  Properties
+
+    ->  Methods
+
 
 
 
@@ -244,6 +248,18 @@ Compare const, let and var in javascript.
 
 
 
+
+
+
+Complete by 30-11-2022
+
+
+
+
+
+
+
+
 14. this keyword
 
     ->  
@@ -294,3 +310,6 @@ Compare const, let and var in javascript.
 
 19. Javascript Design Patterns
 
+20. Regex Pattern 
+
+21. Exceptions and Error Handling
