@@ -80,7 +80,7 @@ Compare const, let and var in javascript.
 
 3. Data types in JS can be of two types :- primitive and objects
 
-    -> Primitive types are Number, string, boolean, null, undefined, Symbol
+    -> Primitive types are Number, string, boolean, null, undefined, Symbol, BigInt
 
         ->  Range of number in java 1.79769e+308. Safe number would be 9007199254740991. Anything bigger can be used as of type BigInt.
             To get the max value allowed for numbers print the value of Number.MAX_VALUE. Whenever we go beyond this value we get result as infinity.
@@ -91,6 +91,10 @@ Compare const, let and var in javascript.
 
         -> How to define numbers in different base systems, floating point numbers.
 
+
+    ->  Undefined in JS means that the variable has been declared but no value has been assigned to it.
+
+    ->  Null means the intentional absence of data. 
 
 
 
@@ -313,3 +317,156 @@ Complete by 30-11-2022
 20. Regex Pattern 
 
 21. Exceptions and Error Handling
+
+22. Namespaces, Closures and module pattern.
+
+
+
+
+
+
+
+
+
+
+
+Interview questions - Javascript
+
+    1.  Why is javascript called a dynamic language
+
+        ->  The datatypes of the variables can change during the runtime.
+
+            Example :
+
+                var x = 0   // number type
+
+                x++;
+
+                x = "Text"  // string type
+
+                x = true    // boolean type
+
+        
+
+    2.  How does JS determine data types?
+
+        ->  Depending on the values assigned to the variable during runtime.
+
+
+
+    3.  Hoisting in JS
+
+        ->  A mechanism where variables and functions are declared are moved to the top of the scope.
+
+        ->  Javascript initialization are not hoisted 
+
+
+
+    4.  What happens when you declare a variable without the var keyword
+
+        ->  The variable becomes global.
+
+
+
+    5.  Default value of a variable is null or undefined.
+
+    6.  "use strict" is a directive that strictly checks if the variable is declared using var or let keyword.
+
+    7.  It is difficult to avoid global variables. But we can organize it properly by doing two things.
+
+        ->  Put global variables in a proper namespace.
+
+        ->  Module pattern using closures and IIFE.
+
+    8.  Closures are functions inside a function which makes a normal function stateful. 
+
+    9.  The only use of having closures is to have a self contained state/function.
+
+    10. How can we implement OOPS in JS.
+
+    11. What is IIFE : Immediately invoked function expression, Anonymous function that is immediately invoked. 
+
+        ->  (function() {
+                var y = 10
+                alert("I am IIFE")
+        })();                                           //  The last two brackets means it's immediately invoked.
+
+    12. What is the difference between a normal function and IIFE?
+
+    13. What is name collision in JS?
+
+        ->  function Init() {
+                var x = 0
+        }
+
+        var Init = 0            //function has now become a variable as JS is a dynamic language
+        Init()
+
+    14. What are the various ways to create a JS object
+
+        ->  a. //literals
+
+                var obj = {"name": "PersonOne", "age": 23}
+
+                //to add a function as a property
+
+                obj.admit = function() {
+                    alert("Admitted")
+                }
+
+                //admit has been added as a property which when invoked executes the function releated.
+
+            b.  //object.create
+
+                    var patnew = object.create(obj)     //Creates a new object or an instance of the last object named obj
+
+            c.  //Constructor
+
+                    function Patient() {
+                        this.name = ""
+                        this.age = 0
+                        this.admit = function(){
+
+                        }
+                    }
+
+                    var obj = new Patient()
+
+
+            d.  //class
+
+                    class PatientClass {
+                        constructor(name, address){
+                            this.name = ""
+                            this.address = ""
+                        }
+
+
+                    }
+
+                    var p = new PatientClass()
+
+
+    15. Explain Prototyping and Prototype chaining in JS
+
+    16. Is the let type hoisted?
+
+    17. What is Temporal Dead Zone?
+
+        ->  It is a period or it's state of a variable where variables are named in memory but they are not initialized with any value.
+
+
+            //This is Temporal Dead Zone
+
+                console.log(x)
+
+            //This is Temporal Dead Zone
+            //This is Temporal Dead Zone
+
+                let x = 10; //End of Temporal Dead Zone
+
+
+
+    18. map(), filter(), reduce() methods in JS
+
+
