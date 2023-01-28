@@ -54,11 +54,42 @@ Javascript for beginners
 
 1. Variables in Javascript
 
-    -> Why do we need Variables
+    ->  Why do we need Variables
 
-    -> const, let, var 
+    ->  const, let, var 
 
         -> What are the rules for giving variable names in Javascript
+
+
+    ->  var is declared with a function scope, while let and const have block scope.
+
+    ->  Function scope : When a variable is declared inside a function, it is only accessible within that function and cannot be used outside the function.
+
+    ->  Block scope : A variable when declared inside the if or switch statements, or inside loops, the variables are accessible only inside the block or curly braces.
+
+        Example
+
+            function hello() {
+
+                if(true) {
+
+                    var a = "Javascript"
+                    let b = "C++"
+                    const c = "Python"
+
+                    console.log(a)
+                    console.log(b)
+                    console.log(c)
+                }
+
+                console.log("Outside IF")
+                console.log(a)
+                console.log(b)
+                console.log(c)
+            }
+
+
+            Error occures when we try access 'b' outside the if block as the scope is block scope with let decleration. Same is the case with variable 'c'
 
 
 
@@ -450,6 +481,8 @@ Interview questions - Javascript
     15. Explain Prototyping and Prototype chaining in JS
 
     16. Is the let type hoisted?
+
+        ->  In javascript only var type is hoisted. let and const is not hoisted.
 
     17. What is Temporal Dead Zone?
 
